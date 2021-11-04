@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= m, initial-scale=1.0">
+    <title>ONE FOR ALL Services</title>
+</head>
+<body>
+    
+    <form action="">
+        <h1><u>ONE FOR ALL Services</u></h1>
+        <h2>Details</h2>
+        
+        <p>Full Name *: <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>Male <input type="radio" name="gender" id="male">
+        Female<input type="radio" name="gender" id="female" >Others<input type="radio" name="gender" id="others"></p>
+        </fieldset>
+        <p>Servive Type *:<select name= "Service Type" required>
+            <option value= "">--Select a Service Type--</option>
+            <option value= "Cleaning">Cleaning</option>
+            <option value= "Carpenter">Carpenter</option>
+            <option value= "Plumbing">Plumbing</option>
+            <option value= "Electrician">Electrician</option>
+            <option value= "Masonry">Masonry</option>
+        </select>
+        </p>
+        <p>Service Date *: <input type = "date" name="date_of_service" id="date_of_service" required></p>
+        <p>Address *: <textarea name="address" id="address" cols="60" rows="10" required></textarea></p>
+        <p>Email: <input type="email" name="email" id="email"></p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    
+    </form>
+</body>
+</html>
