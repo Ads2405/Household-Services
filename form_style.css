@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Dancing script';
+    padding: 8px;
+
+}
+h1{
+    color: royalblue;
+    text-indent: 4px;
+    text-shadow: 0 0 2px black;
+    text-align: center;
+    font-weight:900;
+}
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 5px 10%;
+    
+}
+
+#myimage {
+    border-radius: 8px;
+    padding: 1em;
+    float:right;
+    margin: 10px;
+    position:relative;
+    right:365px;
+    bottom: 10px;
+}
+
+
+
+input[type="radio"],
+input[type="text"],
+input[type="date"],
+input[type="address"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    padding: 4px;
+    border-radius: 6px;
+}
+.details{
+    font-style: italic;
+    color:darkorchid;
+}
+.container{
+    overflow: scroll;
+    display:flexbox;
+    font-weight: bold;
+    background-color: slategray;
+    padding: 5px 20px 10px 15px;
+    border: 3px solid darkgray;
+    border-radius: 13px;
+}
+
+input[type="submit"],
+input[type="reset"]
+{
+width: 50%;
+font-size: large;
+font-family:'Segeo UI' ;
+color:coral ;
+text-align: center;
+background:midnightblue;
+padding: 15px 10px;
+border-radius: 5px;
+cursor: pointer;
+display: inline;
+float: left;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+    color: blueviolet;
+}
+
+
+fieldset{
+border-color: rgb(80, 62, 85);
+}
